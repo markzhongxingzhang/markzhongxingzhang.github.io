@@ -1,125 +1,257 @@
 ---
 permalink: /
 title: ""
+excerpt: "Zhongxing Zhang — Computer Science Ph.D. candidate at the University of Minnesota, working on multimodal learning, large language models, and misinformation detection."
 author_profile: false
 redirect_from:
   - /about/
   - /about.html
 ---
 
-<div class="af-profile">
-  <div class="af-profile__info">
-    <h1 class="af-profile__name">Zhongxing Zhang</h1>
-    <p class="af-profile__subtitle">
-      Computer Science Ph.D. Candidate &bull; University of Minnesota, Twin Cities<br>
-      <small style="color:#777;">Department of Computer Science &amp; Engineering &bull; Advised by Prof. Jaideep Srivastava</small>
-    </p>
-    <div class="af-profile__bio">
-      <p>
-        I am a Ph.D. student in Computer Science at the University of Minnesota, Twin Cities,
-        advised by <a href="https://cse.umn.edu/cs/jaideep-srivastava">Prof. Jaideep Srivastava</a>.
-        My research lies at the intersection of <strong>multimodal learning</strong>,
-        <strong>large language models (LLMs)</strong>, and <strong>computational social science</strong>,
-        with a focus on combating misinformation in the wild. I build systems that jointly reason over
-        text, images, and external knowledge to detect fake news and assess online information credibility.
+<div class="af-hero" id="about">
+  <div class="af-hero__glow" aria-hidden="true"></div>
+  <div class="af-hero__grid">
+
+    <div class="af-hero__main">
+      <p class="af-eyebrow">Ph.D. Candidate in Computer Science</p>
+      <h1 class="af-name">Zhongxing Zhang</h1>
+      <p class="af-affil">
+        <strong>University of Minnesota, Twin Cities</strong> &middot; Department of Computer Science &amp; Engineering<br>
+        Advised by <a href="https://cse.umn.edu/cs/jaideep-srivastava">Prof. Jaideep Srivastava</a>
       </p>
-      <p>
-        Prior to UMN, I received my M.Eng. and B.Eng. from Shandong University of Finance and Economics,
-        where I worked with Prof. Hui Liu on low-level computer vision, including image super-resolution
-        and restoration.
-      </p>
+
+      <div class="af-chips">
+        <span class="af-chip">Multimodal Learning</span>
+        <span class="af-chip">Large Language Models</span>
+        <span class="af-chip">Misinformation Detection</span>
+        <span class="af-chip">Computational Social Science</span>
+      </div>
+
+      <div class="af-bio">
+        <p>
+          I build systems that reason jointly over text, images, and external knowledge to detect
+          fake news and assess the credibility of information online. My work sits at the
+          intersection of <strong>multimodal learning</strong>, <strong>large language models</strong>,
+          and <strong>computational social science</strong>.
+        </p>
+        <p>
+          Before Minnesota I received my M.Eng. and B.Eng. from Shandong University of Finance and
+          Economics, where I worked with Prof. Hui Liu on low-level computer vision — image
+          super-resolution and restoration with low-rank priors.
+        </p>
+      </div>
+
+      <div class="af-actions">
+        <a class="af-btn af-btn--primary" href="mailto:zhan8889@umn.edu"><i class="fas fa-envelope" aria-hidden="true"></i> Email</a>
+        <a class="af-btn" href="https://scholar.google.com/citations?user=Wh6O-NgAAAAJ&amp;hl=en" target="_blank" rel="noopener"><i class="ai ai-google-scholar" aria-hidden="true"></i> Google Scholar</a>
+        <a class="af-btn" href="https://github.com/cvzh" target="_blank" rel="noopener"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a>
+        <a class="af-btn" href="https://linkedin.com/in/zhongxing-zhang-1956a02a5" target="_blank" rel="noopener"><i class="fab fa-linkedin" aria-hidden="true"></i> LinkedIn</a>
+        <a class="af-btn" href="https://www.researchgate.net/profile/Zhongxing-Zhang-8" target="_blank" rel="noopener"><i class="ai ai-researchgate" aria-hidden="true"></i> ResearchGate</a>
+      </div>
     </div>
-    <div class="af-social">
-      <a href="mailto:zhan8889@umn.edu" title="Email"><i class="fas fa-envelope"></i></a>
-      <a href="https://scholar.google.com/citations?user=Wh6O-NgAAAAJ&hl=en" title="Google Scholar" target="_blank"><i class="ai ai-google-scholar"></i></a>
-      <a href="https://github.com/cvzh" title="GitHub" target="_blank"><i class="fab fa-github"></i></a>
-      <a href="https://linkedin.com/in/zhongxing-zhang-1956a02a5" title="LinkedIn" target="_blank"><i class="fab fa-linkedin"></i></a>
-      <a href="https://www.researchgate.net/profile/Zhongxing-Zhang-8" title="ResearchGate" target="_blank"><i class="ai ai-researchgate"></i></a>
-    </div>
-  </div>
-  <div class="af-profile__photo">
-    <img src="/images/Zhongxing.png" alt="Zhongxing Zhang">
-    <div class="af-profile__address">
-      <p>University of Minnesota</p>
-      <p>Minneapolis, MN 55455</p>
-      <p>zhan8889@umn.edu</p>
-    </div>
+
+    <aside class="af-hero__side">
+      <div class="af-photo">
+        <img src="/images/Zhongxing.png" alt="Portrait of Zhongxing Zhang" width="200" height="200">
+      </div>
+      <ul class="af-meta">
+        <li><i class="fas fa-building-columns" aria-hidden="true"></i><span>Computer Science &amp; Engineering, UMN</span></li>
+        <li><i class="fas fa-location-dot" aria-hidden="true"></i><span>Minneapolis, MN 55455</span></li>
+        <li><i class="fas fa-envelope" aria-hidden="true"></i><a href="mailto:zhan8889@umn.edu">zhan8889@umn.edu</a></li>
+      </ul>
+    </aside>
+
   </div>
 </div>
 
----
+<section class="af-section af-reveal" id="news">
+  <div class="af-section__head">
+    <h2 class="af-section__title">News</h2>
+  </div>
+  <ul class="af-news">
+    {% for item in site.data.news %}
+    <li>
+      <span class="af-news__date">{{ item.date }}</span>
+      <span class="af-news__text">{{ item.text }}</span>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
 
-### News
+<section class="af-section af-reveal" id="research">
+  <div class="af-section__head">
+    <h2 class="af-section__title">Research</h2>
+  </div>
+  <div class="af-cards">
 
-<div class="af-news" markdown="0">
-<table>
-  <tr><td>2025</td><td>Released <a href="https://github.com/cvzh/BiMind"><strong>BiMind</strong></a> &mdash; a dual-head reasoning model with Attention-Geometry Adapter for multimodal incorrect information detection.</td></tr>
-  <tr><td>2024</td><td>Ongoing research on VLM-based multimodal fake news detection with retrieval-augmented external knowledge grounding.</td></tr>
-</table>
-</div>
+    <div class="af-card">
+      <span class="af-card__icon"><i class="fas fa-photo-film" aria-hidden="true"></i></span>
+      <h3 class="af-card__title">Multimodal Misinformation Detection</h3>
+      <p class="af-card__text">Models that reason jointly over text and images to identify fake news, with applications to social media and cross-lingual settings.</p>
+    </div>
 
----
+    <div class="af-card">
+      <span class="af-card__icon"><i class="fas fa-brain" aria-hidden="true"></i></span>
+      <h3 class="af-card__title">Vision-Language Models</h3>
+      <p class="af-card__text">Using large pretrained models — CLIP, LLaVA, Qwen-VL — as reasoning engines for credibility assessment.</p>
+    </div>
 
-### Research Interests
+    <div class="af-card">
+      <span class="af-card__icon"><i class="fas fa-magnifying-glass" aria-hidden="true"></i></span>
+      <h3 class="af-card__title">Retrieval-Augmented Generation</h3>
+      <p class="af-card__text">Grounding predictions in external knowledge to improve factual accuracy and make model decisions interpretable.</p>
+    </div>
 
-- **Multimodal Misinformation Detection:** Designing models that jointly reason over text and images to identify fake news, with applications to social media and cross-lingual settings.
-- **Vision-Language Models (VLMs):** Leveraging large pretrained models (CLIP, LLaVA, Qwen-VL) as reasoning engines for credibility assessment tasks.
-- **Retrieval-Augmented Generation (RAG):** Grounding model predictions with external knowledge to improve factual accuracy and interpretability.
-- **Computational Social Science:** Analyzing social behaviors, network dynamics, and information propagation to understand online misinformation ecosystems.
-- **Low-Level Vision (Prior Work):** Image super-resolution and restoration via low-rank priors and probabilistic nuclear norm minimization.
+    <div class="af-card">
+      <span class="af-card__icon"><i class="fas fa-diagram-project" aria-hidden="true"></i></span>
+      <h3 class="af-card__title">Computational Social Science</h3>
+      <p class="af-card__text">Analyzing social behavior, network dynamics, and information propagation to understand online misinformation ecosystems.</p>
+    </div>
 
----
+    <div class="af-card">
+      <span class="af-card__icon"><i class="fas fa-wand-magic-sparkles" aria-hidden="true"></i></span>
+      <h3 class="af-card__title">Low-Level Vision <span class="af-badge">Prior work</span></h3>
+      <p class="af-card__text">Image super-resolution and restoration via low-rank priors and probabilistic nuclear norm minimization.</p>
+    </div>
 
-### Education
+  </div>
+</section>
 
-- **Ph.D.** in Computer Science, University of Minnesota, Twin Cities, 2027 *(Expected)*
-- **M.Eng.** in Digital Media Technology, Shandong University of Finance and Economics, 2023
-- **B.Eng.** in Computer Science and Technology, Shandong University of Finance and Economics, 2018
+<section class="af-section af-reveal" id="publications">
+  <div class="af-section__head">
+    <h2 class="af-section__title">Publications</h2>
+    <span class="af-section__note">* Selected</span>
+  </div>
+  <div class="af-pubs">
+    {% for pub in site.data.publications %}
+    <article class="af-pub">
+      <div class="af-pub__year">{{ pub.year }}</div>
+      <div class="af-pub__body">
+        <h3 class="af-pub__title">{{ pub.title }}</h3>
+        <p class="af-pub__authors">{{ pub.authors | replace: "Zhongxing Zhang", '<span class="af-me">Zhongxing Zhang</span>' }}</p>
+        <p class="af-pub__venue">
+          {{ pub.venue }}
+          {% if pub.badges %}
+          <span class="af-badges">
+            {% for b in pub.badges %}<span class="af-badge{% if b.style == 'accent' %} af-badge--accent{% elsif b.style == 'warm' %} af-badge--warm{% endif %}">{{ b.text }}</span>{% endfor %}
+          </span>
+          {% endif %}
+        </p>
+        {% if pub.links %}
+        <div class="af-links">
+          {% for l in pub.links %}<a class="af-link" href="{{ l.url }}" target="_blank" rel="noopener"><i class="{{ l.icon }}" aria-hidden="true"></i>{{ l.name }}</a>{% endfor %}
+        </div>
+        {% endif %}
+      </div>
+    </article>
+    {% endfor %}
+  </div>
+</section>
 
----
+<section class="af-section af-reveal" id="experience">
+  <div class="af-section__head">
+    <h2 class="af-section__title">Experience</h2>
+  </div>
+  <ul class="af-timeline">
 
-### Selected Publications
+    <li>
+      <p class="af-role">Applied Scientist Intern &middot; <span class="af-org">Adobe</span></p>
+      <span class="af-period">May 2026 &ndash; August 2026</span>
+    </li>
 
-- **Zhongxing Zhang**, Emily K. Vraga, Jisu Huh, Jaideep Srivastava. *BiMind: A Dual-Head Reasoning Model with Attention-Geometry Adapter for Incorrect Information Detection.* *(Accepted to ACL 2026)* [[GitHub]](https://github.com/cvzh/BiMind)
-- Jiacheng Huang, **Zhongxing Zhang**, and Chao Su. *LabelGenius: A Python Library for LLM-based Multimodal Content Labeling.* *(Accepted to CCR Special Issue on Generative AI)* [[DOI]](https://journal.computationalcommunication.org/article/view/9232)
-- **Zhongxing Zhang**, Emily K. Vraga, Jisu Huh, Jaideep Srivastava. *Learning to Reason Across Modalities with Modular Heads for Correctness-Oriented Information Detection.* *(Under preparation for ARR, May 2026)*
-- Congrui Yin, Evan Wei, **Zhongxing Zhang**, Zaifu Zhan. *PaperHelper: Knowledge-Based LLM QA Paper Reading Assistant.* *(arXiv preprint)* [[DOI]](https://doi.org/10.48550/arXiv.2502.14271)
-- **Zhongxing Zhang**, Hui Liu, and Qiang Guo. *Single image super-resolution reconstruction via probability-inducing nuclear norm minimization.* *(In Preparation)*
-- **Zhongxing Zhang**, Hui Liu, Qiang Guo. *Image restoration using probability-inducing nuclear norm minimization.* IEEE ICIP, Bordeaux, 2022. [[DOI]](https://doi.org/10.1109/ICIP46576.2022.9897237)
-- **Zhongxing Zhang**, Hui Liu, Qiang Guo, Yuxiu Lin. *Super-resolution reconstruction using probability model combined with non-local low-rank prior.* Journal of Computer-Aided Design & Computer Graphics, 2021. [[DOI]](https://doi.org/10.3724/SP.J.1089.2021.18389)
-- **Zhongxing Zhang**, Hui Liu, Qiang Guo, Yuxiu Lin. *Single image super-resolution reconstruction using non-local low-rank prior.* ML4CS, Guangzhou, 2020. [[DOI]](https://doi.org/10.1007/978-3-030-62463-7_27)
-- Jingqi Song, Hui Liu, Yuxiu Lin, **Zhongxing Zhang**. *Medical images super-resolution based on similarity learning.* APCMHS, Seoul, 2019. [[DOI]](https://doi.org/10.1111/bcpt.13266)
+    <li>
+      <p class="af-role">Graduate Research Assistant &middot; <span class="af-org">University of Minnesota</span></p>
+      <span class="af-period">2023 &ndash; Present</span>
+      <ul>
+        <li>Designing multimodal fake news detection architectures that combine VLMs, knowledge graphs, and cross-modal attention.</li>
+        <li>Developing retrieval-augmented pipelines that ground LLM-based misinformation classifiers in external knowledge.</li>
+        <li>Investigating dual-head reasoning with geometry-aware adapters for improved credibility inference (BiMind).</li>
+      </ul>
+    </li>
 
----
+    <li>
+      <p class="af-role">Volunteer Teacher &middot; <span class="af-org">China Western Volunteer Program</span></p>
+      <ul>
+        <li>Taught chemistry, English, mathematics, and computer science in underserved communities.</li>
+        <li>Organized environmental protection campaigns and community outreach activities.</li>
+      </ul>
+    </li>
 
-### Technical Skills
+  </ul>
+</section>
 
-- **Languages:** Python, MATLAB, C/C++, Java, SQL, JavaScript, HTML/CSS
-- **ML / DL Frameworks:** PyTorch, HuggingFace Transformers, PEFT (LoRA)
-- **Multimodal & LLM Tools:** CLIP, LLaVA, Qwen-VL, BLIP-2, vLLM, LangChain
-- **Data & Visualization:** Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn, Weights & Biases
-- **Infrastructure:** Git, Docker, SLURM (HPC), VS Code
+<section class="af-section af-reveal" id="education">
+  <div class="af-section__head">
+    <h2 class="af-section__title">Education</h2>
+  </div>
+  <ul class="af-timeline">
+    <li>
+      <p class="af-role">Ph.D. in Computer Science &middot; <span class="af-org">University of Minnesota, Twin Cities</span></p>
+      <span class="af-period">Expected 2027</span>
+    </li>
+    <li>
+      <p class="af-role">M.Eng. in Digital Media Technology &middot; <span class="af-org">Shandong University of Finance and Economics</span></p>
+      <span class="af-period">2023</span>
+    </li>
+    <li>
+      <p class="af-role">B.Eng. in Computer Science and Technology &middot; <span class="af-org">Shandong University of Finance and Economics</span></p>
+      <span class="af-period">2018</span>
+    </li>
+  </ul>
+</section>
 
----
+<section class="af-section af-reveal" id="skills">
+  <div class="af-section__head">
+    <h2 class="af-section__title">Technical Skills</h2>
+  </div>
+  <div class="af-skills">
 
-### Experience
+    <div class="af-skills__group">
+      <h4>Languages</h4>
+      <div class="af-tags">
+        <span class="af-tag">Python</span><span class="af-tag">MATLAB</span><span class="af-tag">C/C++</span><span class="af-tag">Java</span><span class="af-tag">SQL</span><span class="af-tag">JavaScript</span><span class="af-tag">HTML/CSS</span>
+      </div>
+    </div>
 
-- **Applied Scientist Intern**, Adobe (May 2026 &ndash; August 2026)
+    <div class="af-skills__group">
+      <h4>ML &amp; Deep Learning</h4>
+      <div class="af-tags">
+        <span class="af-tag">PyTorch</span><span class="af-tag">HuggingFace Transformers</span><span class="af-tag">PEFT / LoRA</span><span class="af-tag">Scikit-learn</span>
+      </div>
+    </div>
 
-- **Graduate Research Assistant**, University of Minnesota (2023 &ndash; Present)
-  - Designing multimodal fake news detection architectures combining VLMs, knowledge graphs, and cross-modal attention.
-  - Developing retrieval-augmented pipelines for grounding LLM-based misinformation classifiers with external knowledge.
-  - Investigating dual-head reasoning with geometry-aware adapters for improved credibility inference (BiMind).
+    <div class="af-skills__group">
+      <h4>Multimodal &amp; LLM Tooling</h4>
+      <div class="af-tags">
+        <span class="af-tag">CLIP</span><span class="af-tag">LLaVA</span><span class="af-tag">Qwen-VL</span><span class="af-tag">BLIP-2</span><span class="af-tag">vLLM</span><span class="af-tag">LangChain</span>
+      </div>
+    </div>
 
-- **Volunteer Teacher**, China Western Volunteer Program
-  - Taught Chemistry, English, Mathematics, and Computer Science in underserved communities.
-  - Organized environmental protection campaigns and community outreach activities.
+    <div class="af-skills__group">
+      <h4>Data &amp; Visualization</h4>
+      <div class="af-tags">
+        <span class="af-tag">Pandas</span><span class="af-tag">NumPy</span><span class="af-tag">Matplotlib</span><span class="af-tag">Seaborn</span><span class="af-tag">Weights &amp; Biases</span>
+      </div>
+    </div>
 
----
+    <div class="af-skills__group">
+      <h4>Infrastructure</h4>
+      <div class="af-tags">
+        <span class="af-tag">Git</span><span class="af-tag">Docker</span><span class="af-tag">SLURM (HPC)</span><span class="af-tag">Linux</span><span class="af-tag">VS Code</span>
+      </div>
+    </div>
 
-### Honors & Awards
+  </div>
+</section>
 
-- National Scholarship for Graduate Students
-- Postgraduate Research Scholarship
-- President's Scholarship
-- Excellent Volunteer &mdash; China Western Volunteer Program
+<section class="af-section af-reveal" id="awards">
+  <div class="af-section__head">
+    <h2 class="af-section__title">Honors &amp; Awards</h2>
+  </div>
+  <div class="af-awards">
+    <div class="af-award"><i class="fas fa-award" aria-hidden="true"></i><span>National Scholarship for Graduate Students</span></div>
+    <div class="af-award"><i class="fas fa-award" aria-hidden="true"></i><span>Postgraduate Research Scholarship</span></div>
+    <div class="af-award"><i class="fas fa-award" aria-hidden="true"></i><span>President&rsquo;s Scholarship</span></div>
+    <div class="af-award"><i class="fas fa-hand-holding-heart" aria-hidden="true"></i><span>Excellent Volunteer &mdash; China Western Volunteer Program</span></div>
+  </div>
+</section>

@@ -1,0 +1,22 @@
+# Homepage "News" timeline. Newest first.
+# date: short label shown in the left column
+# text: HTML allowed
+- date: "2026"
+  text: >-
+    <strong>BiMind</strong> accepted to <strong>ACL 2026</strong> — a dual-head reasoning model with an
+    Attention-Geometry Adapter for multimodal incorrect information detection.
+- date: "2026"
+  text: >-
+    Joining <strong>Adobe</strong> as an Applied Scientist Intern for Summer 2026.
+- date: "2025"
+  text: >-
+    <strong>LabelGenius</strong> accepted to the <em>Computational Communication Research</em>
+    special issue on Generative AI.
+- date: "2025"
+  text: >-
+    Released <a href="https://github.com/cvzh/BiMind">BiMind</a> — code and models for dual-head
+    multimodal misinformation detection.
+- date: "2024"
+  text: >-
+    Ongoing research on VLM-based multimodal fake news detection with retrieval-augmented
+    external knowledge grounding.

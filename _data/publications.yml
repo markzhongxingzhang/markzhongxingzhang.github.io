@@ -1,0 +1,107 @@
+# Homepage publication list. Newest first.
+# Occurrences of "Zhongxing Zhang" in `authors` are highlighted automatically.
+# badges: small tags shown under the venue (style: accent | warm | plain)
+# links:  [{name, url, icon}] — icon is a Font Awesome / Academicons class
+- year: "2026"
+  title: "BiMind: A Dual-Head Reasoning Model with Attention-Geometry Adapter for Incorrect Information Detection"
+  authors: "Zhongxing Zhang, Emily K. Vraga, Jisu Huh, Jaideep Srivastava"
+  venue: "Annual Meeting of the Association for Computational Linguistics (ACL)"
+  badges:
+    - text: "ACL 2026"
+      style: accent
+    - text: "Accepted"
+      style: warm
+  links:
+    - name: "Code"
+      url: "https://github.com/cvzh/BiMind"
+      icon: "fab fa-github"
+
+- year: "—"
+  title: "LabelGenius: A Python Library for LLM-based Multimodal Content Labeling"
+  authors: "Jiacheng Huang, Zhongxing Zhang, Chao Su"
+  venue: "Computational Communication Research — Special Issue on Generative AI"
+  badges:
+    - text: "CCR"
+      style: accent
+    - text: "Accepted"
+      style: warm
+  links:
+    - name: "Paper"
+      url: "https://journal.computationalcommunication.org/article/view/9232"
+      icon: "fas fa-up-right-from-square"
+
+- year: "—"
+  title: "Learning to Reason Across Modalities with Modular Heads for Correctness-Oriented Information Detection"
+  authors: "Zhongxing Zhang, Emily K. Vraga, Jisu Huh, Jaideep Srivastava"
+  venue: "Under preparation for ARR, May 2026"
+  badges:
+    - text: "In preparation"
+      style: plain
+
+- year: "2025"
+  title: "PaperHelper: Knowledge-Based LLM QA Paper Reading Assistant"
+  authors: "Congrui Yin, Evan Wei, Zhongxing Zhang, Zaifu Zhan"
+  venue: "arXiv preprint"
+  badges:
+    - text: "Preprint"
+      style: plain
+  links:
+    - name: "arXiv"
+      url: "https://doi.org/10.48550/arXiv.2502.14271"
+      icon: "ai ai-arxiv"
+
+- year: "2022"
+  title: "Image Restoration Using Probability-Inducing Nuclear Norm Minimization"
+  authors: "Zhongxing Zhang, Hui Liu, Qiang Guo"
+  venue: "IEEE International Conference on Image Processing (ICIP), Bordeaux"
+  badges:
+    - text: "ICIP 2022"
+      style: accent
+  links:
+    - name: "DOI"
+      url: "https://doi.org/10.1109/ICIP46576.2022.9897237"
+      icon: "ai ai-doi"
+
+- year: "2021"
+  title: "Super-Resolution Reconstruction Using Probability Model Combined with Non-Local Low-Rank Prior"
+  authors: "Zhongxing Zhang, Hui Liu, Qiang Guo, Yuxiu Lin"
+  venue: "Journal of Computer-Aided Design &amp; Computer Graphics"
+  badges:
+    - text: "JCAD&amp;CG"
+      style: accent
+  links:
+    - name: "DOI"
+      url: "https://doi.org/10.3724/SP.J.1089.2021.18389"
+      icon: "ai ai-doi"
+
+- year: "—"
+  title: "Single Image Super-Resolution Reconstruction via Probability-Inducing Nuclear Norm Minimization"
+  authors: "Zhongxing Zhang, Hui Liu, Qiang Guo"
+  venue: "Journal article, in preparation"
+  badges:
+    - text: "In preparation"
+      style: plain
+
+- year: "2020"
+  title: "Single Image Super-Resolution Reconstruction Using Non-Local Low-Rank Prior"
+  authors: "Zhongxing Zhang, Hui Liu, Qiang Guo, Yuxiu Lin"
+  venue: "International Conference on Machine Learning for Cyber Security (ML4CS), Guangzhou"
+  badges:
+    - text: "ML4CS 2020"
+      style: accent
+  links:
+    - name: "DOI"
+      url: "https://doi.org/10.1007/978-3-030-62463-7_27"
+      icon: "ai ai-doi"
+
+- year: "2019"
+  title: "Medical Images Super-Resolution Based on Similarity Learning"
+  authors: "Jingqi Song, Hui Liu, Yuxiu Lin, Zhongxing Zhang"
+  venue: "Asia-Pacific Conference on Medical and Health Sciences (APCMHS), Seoul"
+  badges:
+    - text: "APCMHS 2019"
+      style: accent
+  links:
+    - name: "DOI"
+      url: "https://doi.org/10.1111/bcpt.13266"
+      icon: "ai ai-doi"

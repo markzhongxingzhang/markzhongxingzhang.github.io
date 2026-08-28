@@ -9,6 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 title                    : "Zhongxing Zhang's Personal Homepage"
+masthead_title           : "Zhongxing Zhang"
 title_separator          : "-"
 name                     : &name "Zhongxing Zhang"
 description              : "Ph.D. student in CS at UMN — multimodal misinformation detection, VLMs, and computational social science."
