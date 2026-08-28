@@ -25,6 +25,7 @@ redirect_from:
         <span class="af-chip">Large Language Models</span>
         <span class="af-chip">Misinformation Detection</span>
         <span class="af-chip">Computational Social Science</span>
+        <span class="af-chip">Uncertainty Quantification</span>
       </div>
 
       <div class="af-bio">
@@ -52,7 +53,7 @@ redirect_from:
 
     <aside class="af-hero__side">
       <div class="af-photo">
-        <img src="/images/Zhongxing.png" alt="Portrait of Zhongxing Zhang" width="200" height="200">
+        <img src="/images/zhongxing-acl.jpg" alt="Zhongxing Zhang at ACL 2026 in San Diego" width="200" height="200">
       </div>
       <ul class="af-meta">
         <li><i class="fas fa-building-columns" aria-hidden="true"></i><span>Computer Science &amp; Engineering, UMN</span></li>
@@ -100,6 +101,12 @@ redirect_from:
       <span class="af-card__icon"><i class="fas fa-magnifying-glass" aria-hidden="true"></i></span>
       <h3 class="af-card__title">Retrieval-Augmented Generation</h3>
       <p class="af-card__text">Grounding predictions in external knowledge to improve factual accuracy and make model decisions interpretable.</p>
+    </div>
+
+    <div class="af-card">
+      <span class="af-card__icon"><i class="fas fa-gauge-high" aria-hidden="true"></i></span>
+      <h3 class="af-card__title">Uncertainty Quantification</h3>
+      <p class="af-card__text">Calibrating model confidence so credibility predictions carry reliable, well-quantified uncertainty and know when to abstain.</p>
     </div>
 
     <div class="af-card">
@@ -155,26 +162,35 @@ redirect_from:
   <ul class="af-timeline">
 
     <li>
-      <p class="af-role">Applied Scientist Intern &middot; <span class="af-org">Adobe</span></p>
+      <span class="af-tl__mark"><img src="/images/logos/adobe.svg" alt="Adobe"></span>
+      <div class="af-tl__body">
+        <p class="af-role">Applied Scientist Intern &middot; <span class="af-org">Adobe</span></p>
       <span class="af-period">May 2026 &ndash; August 2026</span>
+      </div>
     </li>
 
     <li>
-      <p class="af-role">Graduate Research Assistant &middot; <span class="af-org">University of Minnesota</span></p>
+      <span class="af-tl__mark"><img src="/images/logos/umn.svg" alt="University of Minnesota"></span>
+      <div class="af-tl__body">
+        <p class="af-role">Graduate Research Assistant &middot; <span class="af-org">University of Minnesota</span></p>
       <span class="af-period">2023 &ndash; Present</span>
       <ul>
         <li>Designing multimodal fake news detection architectures that combine VLMs, knowledge graphs, and cross-modal attention.</li>
         <li>Developing retrieval-augmented pipelines that ground LLM-based misinformation classifiers in external knowledge.</li>
         <li>Investigating dual-head reasoning with geometry-aware adapters for improved credibility inference (BiMind).</li>
       </ul>
+      </div>
     </li>
 
     <li>
-      <p class="af-role">Volunteer Teacher &middot; <span class="af-org">China Western Volunteer Program</span></p>
+      <span class="af-tl__mark af-tl__mark--icon"><i class="fas fa-hands-holding-child" aria-hidden="true"></i></span>
+      <div class="af-tl__body">
+        <p class="af-role">Volunteer Teacher &middot; <span class="af-org">China Western Volunteer Program</span></p>
       <ul>
         <li>Taught chemistry, English, mathematics, and computer science in underserved communities.</li>
         <li>Organized environmental protection campaigns and community outreach activities.</li>
       </ul>
+      </div>
     </li>
 
   </ul>
@@ -186,16 +202,25 @@ redirect_from:
   </div>
   <ul class="af-timeline">
     <li>
-      <p class="af-role">Ph.D. in Computer Science &middot; <span class="af-org">University of Minnesota, Twin Cities</span></p>
+      <span class="af-tl__mark"><img src="/images/logos/umn.svg" alt="University of Minnesota"></span>
+      <div class="af-tl__body">
+        <p class="af-role">Ph.D. in Computer Science &middot; <span class="af-org">University of Minnesota, Twin Cities</span></p>
       <span class="af-period">Expected 2027</span>
+      </div>
     </li>
     <li>
-      <p class="af-role">M.Eng. in Digital Media Technology &middot; <span class="af-org">Shandong University of Finance and Economics</span></p>
+      <span class="af-tl__mark"><img src="/images/logos/sdufe.png" alt="Shandong University of Finance and Economics"></span>
+      <div class="af-tl__body">
+        <p class="af-role">M.Eng. in Digital Media Technology &middot; <span class="af-org">Shandong University of Finance and Economics</span></p>
       <span class="af-period">2023</span>
+      </div>
     </li>
     <li>
-      <p class="af-role">B.Eng. in Computer Science and Technology &middot; <span class="af-org">Shandong University of Finance and Economics</span></p>
+      <span class="af-tl__mark"><img src="/images/logos/sdufe.png" alt="Shandong University of Finance and Economics"></span>
+      <div class="af-tl__body">
+        <p class="af-role">B.Eng. in Computer Science and Technology &middot; <span class="af-org">Shandong University of Finance and Economics</span></p>
       <span class="af-period">2018</span>
+      </div>
     </li>
   </ul>
 </section>

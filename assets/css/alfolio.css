@@ -607,26 +607,51 @@ a:hover { color: var(--accent-hover); }
 /* --------------------------------------------------------------------------
    10. Timeline (experience & education)
    -------------------------------------------------------------------------- */
-.af-timeline { list-style: none; margin: 0; padding: 0 0 0 1.55rem; position: relative; }
+.af-timeline { list-style: none; margin: 0; padding: 0; position: relative; }
 .af-timeline:before {
   content: "";
   position: absolute;
-  left: 5px; top: 0.6rem; bottom: 0.6rem;
+  left: 17px; top: 0.9rem; bottom: 0.9rem;
   width: 1px;
   background: linear-gradient(180deg, var(--accent-ring), var(--border) 55%, transparent);
 }
-.af-timeline > li { position: relative; padding: 0 0 1.5rem; }
-.af-timeline > li:last-child { padding-bottom: 0; }
-.af-timeline > li:before {
-  content: "";
-  position: absolute;
-  left: -1.55rem; top: 0.5rem;
-  width: 11px; height: 11px;
-  border-radius: 50%;
-  background: var(--bg);
-  border: 2px solid var(--accent);
-  box-shadow: 0 0 0 3px var(--accent-soft);
+.af-timeline > li {
+  position: relative;
+  display: grid;
+  grid-template-columns: 36px minmax(0, 1fr);
+  gap: 1rem;
+  align-items: start;
+  padding: 0 0 1.6rem;
 }
+.af-timeline > li:last-child { padding-bottom: 0; }
+
+/* Institution logo (or fallback icon) marking each timeline entry */
+.af-tl__mark {
+  position: relative;
+  z-index: 1;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--border-strong);
+  border-radius: 9px;
+  background: #ffffff;
+  box-shadow: var(--shadow-sm);
+  overflow: hidden;
+}
+.af-tl__mark img {
+  width: 23px;
+  height: 23px;
+  object-fit: contain;
+  display: block;
+}
+.af-tl__mark--icon {
+  background: var(--accent-soft);
+  border-color: var(--accent-ring);
+  color: var(--accent);
+}
+.af-tl__mark--icon i { font-size: 0.85rem; }
 
 .af-role { margin: 0 0 0.12rem; font-size: 1rem; font-weight: 650; color: var(--text); letter-spacing: -0.005em; }
 .af-org { color: var(--accent); font-weight: 600; }
