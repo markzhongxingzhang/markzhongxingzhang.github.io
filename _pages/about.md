@@ -45,7 +45,7 @@ redirect_from:
       <div class="af-actions">
         <a class="af-btn af-btn--primary" href="mailto:zhan8889@umn.edu"><i class="fas fa-envelope" aria-hidden="true"></i> Email</a>
         <a class="af-btn" href="https://scholar.google.com/citations?user=Wh6O-NgAAAAJ&amp;hl=en" target="_blank" rel="noopener"><i class="ai ai-google-scholar" aria-hidden="true"></i> Google Scholar</a>
-        <a class="af-btn" href="https://github.com/cvzh" target="_blank" rel="noopener"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a>
+        <a class="af-btn" href="https://github.com/markzhongxingzhang" target="_blank" rel="noopener"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a>
         <a class="af-btn" href="https://linkedin.com/in/zhongxing-zhang-1956a02a5" target="_blank" rel="noopener"><i class="fab fa-linkedin" aria-hidden="true"></i> LinkedIn</a>
         <a class="af-btn" href="https://www.researchgate.net/profile/Zhongxing-Zhang-8" target="_blank" rel="noopener"><i class="ai ai-researchgate" aria-hidden="true"></i> ResearchGate</a>
       </div>
